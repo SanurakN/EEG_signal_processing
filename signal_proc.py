@@ -1,4 +1,13 @@
-
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.fftpack
+from scipy import fftpack
+import scipy.fftpack
+import scipy.signal as signal 
+from scipy.signal import butter, lfilter
+import math
 class Signal():
     def __init__(self,path,fs,chan, lowfilt, highfilt, transpose):
         self.path = path
